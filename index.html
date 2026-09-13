@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pondok Bac</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23C08A3E'%3E%3Cpath d='M2 5c2-1 5-1 7 0v14c-2-1-5-1-7 0V5Z'/%3E%3Cpath d='M22 5c-2-1-5-1-7 0v14c2-1 5-1 7 0V5Z'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,340;9..144,480;9..144,600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#home" class="skip-link">Langsung ke konten utama</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="nav-wrap">
+    <a href="#home" class="brand">
+      <img src="images/logo.png" alt="Logo Pondok Baca" width="70" height="150">
+      Pondok Baca
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active" data-nav>Home</a>
+      <a href="#activity" class="nav-link" data-nav>Activity</a>
+      <a href="#books" class="nav-link" data-nav>Books</a>
+      <a href="#contact" class="nav-link" data-nav>Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="hero-kicker">Perpustakaan Umum Desa Bittuang</p>
+        <h1>Rumah bagi setiap pembaca dan pencari cerita.</h1>
+        <p class="hero-desc">Ruang baca yang tenang, koleksi yang terus bertambah, dan kegiatan literasi untuk semua usia — dari anak-anak hingga lansia, semua bisa menemukan sesuatu untuk dibaca dan dipelajari di sini.</p>
+        <div class="hero-actions">
+          <a href="#books" class="btn btn-primary">Jelajahi Koleksi Buku</a>
+          <a href="#activity" class="btn btn-ghost">Lihat Jadwal Kegiatan</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <svg viewBox="0 0 360 480" role="img" aria-label="Ilustrasi rak buku berwarna-warni">
+          <rect x="10" y="160" width="26" height="300" rx="4" fill="var(--rust)"/>
+          <rect x="42" y="100" width="22" height="360" rx="4" fill="var(--brass)"/>
+          <rect x="70" y="200" width="30" height="260" rx="4" fill="var(--slate)"/>
+          <rect x="106" y="60"  width="24" height="400" rx="4" fill="var(--olive)"/>
+          <rect x="136" y="140" width="34" height="320" rx="4" fill="var(--gold-light)"/>
+          <rect x="176" y="80"  width="20" height="380" rx="4" fill="var(--rust)"/>
+          <rect x="202" y="160" width="28" height="300" rx="4" fill="var(--slate)"/>
+          <rect x="236" y="40"  width="24" height="420" rx="4" fill="var(--brass)"/>
+          <rect x="266" y="120" width="30" height="340" rx="4" fill="var(--olive)"/>
+          <rect x="0" y="460" width="360" height="14" rx="2" fill="var(--brass-light)" opacity=".85"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat"><span class="stat-num">200+</span><span class="stat-label">Judul buku dalam koleksi</span></div>
+      <div class="stat"><span class="stat-num">30+</span><span class="stat-label">Anggota terdaftar</span></div>
+      <div class="stat"><span class="stat-num">36</span><span class="stat-label">Kegiatan tiap tahun</span></div>
+      <div class="stat"><span class="stat-num">6</span><span class="stat-label">Hari buka setiap minggu</span></div>
+    </div>
+  </section>
+
+  <section class="about" aria-label="Tentang perpustakaan">
+    <div class="section-inner">
+      <div class="mark"><span></span><span></span><span></span><span></span></div>
+      <h2>Lebih dari sekadar rak buku</h2>
+      <p>Pondok Baca hadir sebagai ruang belajar bersama — tempat warga membaca, berdiskusi, dan mengikuti berbagai program literasi. Keanggotaan gratis untuk seluruh warga kota.</p>
+      <div class="feature-grid">
+        <div class="feature">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 5c2-1 5-1 7 0v14c-2-1-5-1-7 0V5Z"/><path d="M22 5c-2-1-5-1-7 0v14c2-1 5-1 7 0V5Z"/></svg>
+          <h3>Pondok Alami yang Sejuk</h3>
+          <p>Area alami dengan pencahayaan alami, terbuka setiap senin - minggu untuk belajar dan bekerja.</p>
+        </div>
+        <div class="feature">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="14" height="10" rx="1.5"/><circle cx="17" cy="17" r="3.2"/><path d="M19.3 19.3 22 22"/></svg>
+          <h3>Akses Katalog Digital</h3>
+          <p>Cari dan temukan buku secara daring sebelum datang, lalu ambil langsung di rak yang sudah disiapkan.</p>
+        </div>
+        <div class="feature">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="8" r="3"/><path d="M2 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.4"/><path d="M15 20c.2-2.6 2-4.6 4-4.9"/></svg>
+          <h3>Program Komunitas</h3>
+          <p>Diskusi buku, kelas menulis, kelas bahasa Inggris, dan kegiatan literasi anak yang digelar secara rutin.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="activity" class="activity">
+    <div class="section-inner">
+      <div class="section-head">
+        <div class="mark"><span></span><span></span><span></span><span></span></div>
+        <h2>Kegiatan &amp; berita terbaru</h2>
+        <p>Ikuti berbagai program literasi, diskusi, dan pameran yang kami selenggarakan setiap bulan.</p>
+      </div>
+      <ul class="event-list">
+        <li class="event">
+          <div class="event-date"><span class="day">18</span><span class="month">Okt</span></div>
+          <div class="event-body">
+            <span class="event-tag">Kelas Literasi
+            <a href = "berita1.html">  ...More</a>
+            </span>
+            <h3>Belajar Inggris </h3>
+            <p>Kelas Literasi untuk mengajarkan anak-anak bagaimana berbicara dasar dalam bahasa inggris.</p>
+          </div>
+        </li>
+        <li class="event">
+          <div class="event-date"><span class="day">25</span><span class="month">Okt</span></div>
+          <div class="event-body">
+            <span class="event-tag" >Kelas Literasi
+              <a href = "berita2.html">  ...More</a>
+            </span>
+            <h3>Kelas Komputer untuk melek teknologi</h3>
+            <p>Kelas Literasi untuk mengajarkan anak-anak dan remaja mengenai pengoperasian dasar komputer.</p>
+          </div>
+        </li>
+        <li class="event">
+          <div class="event-date"><span class="day">02</span><span class="month">Nov</span></div>
+          <div class="event-body">
+            <span class="event-tag">Anak-anak
+              <a href = "berita3.html">  ...More</a>
+            </span>
+            <h3>Story Time: Dongeng Nusantara</h3>
+            <p>Sesi mendongeng interaktif untuk anak usia 4–8 tahun, dilengkapi kerajinan tangan sederhana.</p>
+          </div>
+        </li>
+        <li class="event">
+          <div class="event-date"><span class="day">09</span><span class="month">Nov</span></div>
+          <div class="event-body">
+            <span class="event-tag">Pameran
+              <a href = "berita4.html">  ...More</a>
+            </span>
+            <h3>Pameran Arsip: Sejarah Perpustakaan Desa</h3>
+            <p>Menampilkan foto dan dokumen arsip perjalanan perpustakaan sejak tahun 2022.</p>
+          </div>
+        </li>
+        <li class="event">
+          <div class="event-date"><span class="day">16</span><span class="month">Nov</span></div>
+          <div class="event-body">
+            <span class="event-tag">Klub Buku
+              <a href = "berita5.html">  ...More</a>
+            </span>
+            <h3>Klub Buku Bulanan: Fiksi Ilmiah</h3>
+            <p>Diskusi santai membahas satu judul fiksi ilmiah pilihan anggota setiap bulan.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="books" class="books">
+    <div class="section-inner">
+      <div class="section-head">
+        <div class="mark"><span></span><span></span><span></span><span></span></div>
+        <h2>Temukan buku berikutnya</h2>
+        <p>Jelajahi ribuan judul dari berbagai kategori. Gunakan filter untuk mempersempit pencarian.</p>
+      </div>
+
+      <div class="filter-row" role="tablist" aria-label="Filter kategori buku">
+        <button class="filter-chip active" data-filter="all" role="tab" aria-selected="true">Semua</button>
+        <button class="filter-chip" data-filter="fiksi" role="tab" aria-selected="false">Fiksi</button>
+        <button class="filter-chip" data-filter="non-fiksi" role="tab" aria-selected="false">Non-Fiksi</button>
+        <button class="filter-chip" data-filter="sains" role="tab" aria-selected="false">Sains</button>
+        <button class="filter-chip" data-filter="anak" role="tab" aria-selected="false">Anak</button>
+        <button class="filter-chip" data-filter="sejarah" role="tab" aria-selected="false">Sejarah</button>
+      </div>
+
+      <div class="book-grid" id="bookGrid">
+        <article class="book-card" data-category="fiksi" style="--spine:var(--rust)">
+          <span class="book-status available">Tersedia</span>
+          <h3>Sang Dao Abadi</h3>
+          <p class="book-author">Prof. Immanuel Matasak</p>
+          <p class="book-cat">Fiksi</p>
+        </article>
+        <article class="book-card" data-category="fiksi" style="--spine:var(--rust)">
+          <span class="book-status available">Tersedia</span>
+          <h3>Legenda Pendekar Suci</h3>
+          <p class="book-author">Prof. Herdianto Bilma Bunga</p>
+          <p class="book-cat">Fiksi</p>
+        </article>
+        <article class="book-card" data-category="fiksi" style="--spine:var(--rust)">
+          <span class="book-status available">Tersedia</span>
+          <h3>Jejak di Tanah Basah</h3>
+          <p class="book-author">Rani Kusuma</p>
+          <p class="book-cat">Fiksi</p>
+        </article>
+        <article class="book-card" data-category="fiksi" style="--spine:var(--slate)">
+          <span class="book-status borrowed">Dipinjam</span>
+          <h3>Bintang yang Tak Padam</h3>
+          <p class="book-author">Aditya Prasetyo</p>
+          <p class="book-cat">Fiksi</p>
+        </article>
+        <article class="book-card" data-category="non-fiksi" style="--spine:var(--brass)">
+          <span class="book-status available">Tersedia</span>
+          <h3>Menghitung Ombak</h3>
+          <p class="book-author">Sarah Wijaya</p>
+          <p class="book-cat">Non-Fiksi</p>
+        </article>
+        <article class="book-card" data-category="sains" style="--spine:var(--olive)">
+          <span class="book-status available">Tersedia</span>
+          <h3>Semesta dalam Genggaman</h3>
+          <p class="book-author">Dr. Budi Santoso</p>
+          <p class="book-cat">Sains</p>
+        </article>
+        <article class="book-card" data-category="fiksi" style="--spine:var(--rust)">
+          <span class="book-status available">Tersedia</span>
+          <h3>Kisah dari Rak Belakang</h3>
+          <p class="book-author">Nadia Permata</p>
+          <p class="book-cat">Fiksi</p>
+        </article>
+        <article class="book-card" data-category="non-fiksi" style="--spine:var(--brass)">
+          <span class="book-status borrowed">Dipinjam</span>
+          <h3>Ekonomi untuk Semua</h3>
+          <p class="book-author">Hendra Wibowo</p>
+          <p class="book-cat">Non-Fiksi</p>
+        </article>
+        <article class="book-card" data-category="anak" style="--spine:var(--slate)">
+          <span class="book-status available">Tersedia</span>
+          <h3>Petualangan Kancil dan Kawan</h3>
+          <p class="book-author">Tim Cendekia</p>
+          <p class="book-cat">Anak</p>
+        </article>
+        <article class="book-card" data-category="sejarah" style="--spine:var(--olive)">
+          <span class="book-status available">Tersedia</span>
+          <h3>Jejak Nusantara</h3>
+          <p class="book-author">Prof. Siti Amalia</p>
+          <p class="book-cat">Sejarah</p>
+        </article>
+        <article class="book-card" data-category="sains" style="--spine:var(--brass)">
+          <span class="book-status available">Tersedia</span>
+          <h3>Rahasia di Balik Bintang</h3>
+          <p class="book-author">Dewi Anggraini</p>
+          <p class="book-cat">Sains</p>
+        </article>
+        <article class="book-card" data-category="anak" style="--spine:var(--rust)">
+          <span class="book-status available">Tersedia</span>
+          <h3>Dongeng Sebelum Tidur</h3>
+          <p class="book-author">Tim Cendekia</p>
+          <p class="book-cat">Anak</p>
+        </article>
+        <article class="book-card" data-category="anak" style="--spine:var(--rust)">
+          <span class="book-status available">Tersedia</span>
+          <h3>Aku Ingin Pulang</h3>
+          <p class="book-author">Tim Cendekia</p>
+          <p class="book-cat">Remaja</p>
+        </article>
+         <article class="book-card" data-category="sejarah" style="--spine:var(--olive)">
+          <span class="book-status available">Tersedia</span>
+          <h3>Jejak Bayangan</h3>
+          <p class="book-author">Prof. Sukilman</p>
+          <p class="book-cat">Sejarah</p>
+        </article>
+         <article class="book-card" data-category="non-fiksi" style="--spine:var(--olive)">
+          <span class="book-status available">Tersedia</span>
+          <h3>Seribu Satu Cara Menjadi Tidak Berguna</h3>
+          <p class="book-author">Rivaldi Kala Lembang</p>
+          <p class="book-cat">Non-Fiksi</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="section-inner contact-grid">
+      <div class="contact-info">
+        <h2>Hubungi kami</h2>
+        <p>Punya pertanyaan seputar keanggotaan, koleksi, atau kegiatan? Kirimkan pesan atau kunjungi kami langsung.</p>
+        <dl>
+          <div><dt>Alamat</dt><dd>Jl. Le'tek, Kel. Le'tek, Kec. Bittuang, Kab.Tana Toraja</dd></div>
+          <div><dt>Telepon</dt><ddS>+6282261805022</dd></div>
+          <div><dt>Email</dt><dd>pondokbacabittuang@gmail.com</dd></div>
+          <div><dt>Instagram</dt><dd>@pondok_baca_letek</dd></div>
+        <table class="hours">
+          <tr><th>Senin – Jumat</th><td>08.00 – 20.00</td></tr>
+          <tr><th>Sabtu</th><td>09.00 – 17.00</td></tr>
+          <tr><th>Minggu &amp; Libur</th><td>Tutup</td></tr>
+        </table>
+      </div>
+
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/xppzgwkr" method="POST">
+        <h2>Kirim pesan</h2>
+        <label>Nama
+          <input type="text" name="name" required>
+        </label>
+        <label>Email
+          <input type="email" name="email" required>
+        </label>
+        <label>Pesan
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+
+      <section class="comments-section" aria-labelledby="commentsTitle">
+        <div class="section-head">
+          <div class="mark"><span></span><span></span><span></span><span></span></div>
+          <h2 id="commentsTitle">Komentar pengunjung</h2>
+          <p>Pendapat dan pesan yang sudah disetujui akan tampil di sini.</p>
+        </div>
+        <div class="comments-list" id="commentsList" aria-live="polite">
+          <p class="comments-empty">Memuat komentar...</p>
+        </div>
+      </section>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <p class="footer-brand">Pondok Baca</p>
+      <p class="footer-tag">Ruang baca dan belajar untuk semua warga.</p>
+    </div>
+    <nav class="footer-nav">
+      <a href="#home">Home</a>
+      <a href="#activity">Activity</a>
+      <a href="#books">Books</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <p class="copyright">© 2026 Pondok Baca. Seluruh isi pada halaman ini adalah milik Pondok Baca.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
